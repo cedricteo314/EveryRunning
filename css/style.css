@@ -244,6 +244,21 @@ footer p{
     .image img{
         max-width: 250px;
     }
+
+    .products-preview-container .product-preview .content p {
+        font-size: 14px;
+        line-height: 1;
+        padding: 5px 0;
+    }
+
+    .products-preview-container .product-preview .content .stars {
+        padding-top: 5px;
+    }
+    .products-preview-container .product-preview .content .price {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -271,6 +286,15 @@ footer p{
     
     .products-preview-container .product-preview .content p {
         font-size: 12px;
+    }
+
+    .products-preview-container .product-preview .content .stars {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    .products-preview-container .product-preview .content .price {
+        font-size: 20px;
+        padding: 5px 0;
     }
     
     .service .row i{
